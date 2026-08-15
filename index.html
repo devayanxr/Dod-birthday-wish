@@ -39,7 +39,6 @@
     *{ animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
   }
 
-  /* ---------- Envelope cover ---------- */
 
   #cover{
     position: fixed;
@@ -152,7 +151,6 @@
     opacity: 0.85;
   }
 
-  /* ---------- Main content ---------- */
 
   main{
     opacity: 0;
@@ -203,8 +201,6 @@
     line-height: 1.7;
   }
 
-  /* ---------- Letter ---------- */
-
   .letter{
     background: var(--color-paper);
     color: var(--color-ink);
@@ -249,7 +245,6 @@
     text-align: right;
   }
 
-  /* ---------- Gallery ---------- */
 
   .gallery-heading{
     text-align: center;
@@ -340,7 +335,6 @@
     color: #6b6355;
   }
 
-  /* ---------- Closing ---------- */
 
   .closing{
     text-align: center;
@@ -414,20 +408,16 @@
 
 <script>
 
-  /* ==========================================================
-     CONFIG — edit everything below this line. No HTML needed.
-     ========================================================== */
+  
 
   const CONFIG = {
-    herName: "Dolly",                 // shown in envelope label and headline
-    yourName: "Devayan",           // shown as the letter's signature
+    herName: "Dolly",                 
+    yourName: "Devayan",           
 
     heroEyebrow: "A little something",
     heroSubtext: "Written from far away, but meant to reach you exactly today.",
 
-    // Each item in this array becomes one paragraph in the letter.
-    // Write it like you're actually talking to her — this is the part
-    // people will read slowly. Replace these lines with your own words.
+   
     letterParagraphs: [
       "I keep running out of ways to say this, so I'll just say it plainly: today is about you, and I'm so glad you exist.",
       "There's a version of this birthday where we're in the same room and I get to see your face when you read this. Until then, this is me, reaching across the distance the best way I know how.",
